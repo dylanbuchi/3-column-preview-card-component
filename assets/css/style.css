@@ -1,3 +1,16 @@
+:root {
+    /* Bright orange: */
+    --color-primary: hsl(31, 77%, 52%);
+    /* Dark cyan:  */
+    --color-secondary: hsl(184, 100%, 22%);
+    /* Very dark cyan:  */
+    --color-tertiary: hsl(179, 100%, 13%);
+}
+
+button {
+    cursor: pointer;
+}
+
 .main {
     position: relative;
     background: white;
@@ -19,15 +32,15 @@
 }
 
 .box--primary {
-    background-color: gold;
+    background-color: var(--color-primary);
 }
 
 .box--secondary {
-    background-color: blue;
+    background-color: var(--color-secondary);
 }
 
 .box--tertiary {
-    background-color: violet;
+    background-color: var(--color-tertiary);
 }
 
 .box__content {
@@ -38,4 +51,26 @@
 .box__body-text {
     margin-bottom: 80px;
     font-size: 16px;
+}
+
+.box__button {
+    background: white;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: inherit;
+}
+
+.box__button--primary {
+    color: var(--color-primary);
+}
+
+.box__button--secondary {
+    color: var(--color-secondary);
+}
+
+.box__button--tertiary {
+    color: var(--color-tertiary);
 }
