@@ -60,7 +60,6 @@ button {
     padding: 10px 25px;
     border-radius: 20px;
     text-transform: capitalize;
-    color: inherit;
 }
 
 .box__button--primary {
@@ -73,4 +72,20 @@ button {
 
 .box__button--tertiary {
     color: var(--color-tertiary);
+}
+
+.icon {
+    fill: black;
+}
+
+.icon--primary {
+    content: url('../images/icons/icon-sedans.svg');
+}
+
+.icon--secondary {
+    content: url('../images/icons/icon-suvs.svg');
+}
+
+.icon--tertiary {
+    content: url('../images/icons/icon-luxury.svg');
 }
