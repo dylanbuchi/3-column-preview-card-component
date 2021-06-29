@@ -1,0 +1,41 @@
+.main {
+    position: relative;
+    background: white;
+    display: block;
+    padding: 87px 22px;
+}
+
+.box-container {
+    display: grid;
+    position: relative;
+    background: red;
+    min-width: 370px;
+}
+
+.box {
+    background: black;
+    width: 100%;
+    height: 440px;
+}
+
+.box--primary {
+    background-color: gold;
+}
+
+.box--secondary {
+    background-color: blue;
+}
+
+.box--tertiary {
+    background-color: violet;
+}
+
+.box__content {
+    margin: 45px;
+    width: 55%;
+}
+
+.box__body-text {
+    margin-bottom: 80px;
+    font-size: 16px;
+}
