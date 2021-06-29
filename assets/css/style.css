@@ -70,8 +70,12 @@ button {
     padding: 0.875rem 1.5625rem;
     border-radius: 25px;
     text-transform: capitalize;
+    transition: background 0.5s;
 }
 
+.box__button:hover {
+    background: rgb(221, 220, 220);
+}
 .box__button--primary {
     color: var(--color-primary);
 }
@@ -93,7 +97,10 @@ button {
 }
 
 .icon {
-    fill: black;
+    transition: 0.5s;
+}
+.icon:hover {
+    transform: scale(1.2);
 }
 
 .icon--primary {
